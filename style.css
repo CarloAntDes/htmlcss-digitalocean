@@ -34,7 +34,7 @@ header input {
   padding: 30px;
 }
 
-header h5 , span {
+header h5 {
   color: black;
 }
 
@@ -67,7 +67,35 @@ header h6 {
   width: 150px;
 }
 
-main a {
+section.one a {
   border-left: 2px solid grey;
   padding: 20px;
+}
+
+section.two img {
+  width: 600px;
+}
+
+section.four {
+  background-image: url(https://www.digitalocean.com/assets/media/homepage/data-center-map-8227272d.svg),linear-gradient(180deg,#0047c6 0,#001d99);
+  height: 700px;
+  width: 100%;
+  color: white;
+}
+
+.disclaimer-2 {
+  background-color: #1254AA;
+  color: white;
+}
+
+.cds-btn-3 {
+  padding: 8px 20px;
+  background-color: white;
+  color: blue;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #020D28;
+  color: grey;
 }
