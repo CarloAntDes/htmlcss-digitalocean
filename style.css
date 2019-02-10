@@ -4,7 +4,9 @@ body {
 
 nav {
   height: 90px;
-  max-width: 100%;
+  width: 100%;
+  position: sticky;
+
 }
 
 .cds-btn {
@@ -19,4 +21,53 @@ header {
   width: 100%;
   background-image: url(https://www.digitalocean.com/assets/media/homepage/hero-background-c9490927.svg);
   color: white;
+}
+
+header input {
+  width: 90%;
+  border-radius: 5px;
+}
+
+.deploy-cont {
+  background-color: white;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+header h5 , span {
+  color: black;
+}
+
+header h6 {
+  color: blue;
+}
+
+.cds-btn-blue {
+  padding: 8px;
+  width: 90%;
+  background-color: blue;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.cds-btn-white {
+  padding: 8px;
+  width: 90%;
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.grey {
+  background-color: #f3f5f9;
+}
+
+.disclaimer img {
+  width: 150px;
+}
+
+main a {
+  border-left: 2px solid grey;
+  padding: 20px;
 }
